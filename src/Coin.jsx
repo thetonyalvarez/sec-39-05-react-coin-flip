@@ -2,23 +2,30 @@ import React, { useState } from 'react'
 import Box from '@mui/material/Box'
 import './Coin.css'
 
-let coinImg;
 
 const Coin = (props) => {
-  const flip = Math.floor(Math.random() * 2)
   let side;
-  if (flip == 0) {
+  let coinImg;
+
+  if (props.side == 0) {
+    return (
+      <Box></Box>
+    )
+  }
+
+  if (props.side == 1) {
     side = 'heads'
-  } else if (flip == 1) {
+  } else if (props.side == 2) {
     side = 'tails'
   }
   coinImg = `./src/${side}.png`
 
   return (
-    <Box>
-      <img className="CoinImg" src={coinImg} alt="{side}"/>
+    <Box
+      sx={{p: 4}}>
+      <img className="CoinImg" src={coinImg} alt={side}/>
     </Box>
-    )
+  )
 }
 
 export default Coin
