@@ -1,0 +1,93 @@
+// Vitest Snapshot v1
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <p>
+        Let's Flip a Coin!
+      </p>
+    </header>
+    <main
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1sqq6so-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-0"
+      />
+      <button
+        class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+        data-testid="flip-btn"
+        tabindex="0"
+        type="button"
+      >
+        FLIP ME!
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-5z7jm9-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3 css-1ozs4dl-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xt7fqp-MuiPaper-root-MuiCard-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+            >
+              Total Flips
+            </h6>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+            >
+              0
+            </h3>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 css-1eehwzh-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xt7fqp-MuiPaper-root-MuiCard-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+            >
+              Heads
+            </h6>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+            >
+              0
+            </h3>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 css-1eehwzh-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xt7fqp-MuiPaper-root-MuiCard-root"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+            >
+              Tails
+            </h6>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+            >
+              0
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

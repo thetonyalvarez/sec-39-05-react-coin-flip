@@ -23,7 +23,12 @@ const Coin = (props) => {
   return (
     <Box
       sx={{p: 4}}>
-      <img className="CoinImg" src={coinImg} alt={side}/>
+      <img
+        className="CoinImg"
+        src={coinImg}
+        alt={side}
+        data-testid="coin-img"
+      />
     </Box>
   )
 }
