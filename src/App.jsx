@@ -42,7 +42,11 @@ function App() {
       </header>
       <Container component="main" sx={{py: 4}}>
         <Coin sx={{p: 4}} side={side}/>
-        <Button variant="outlined" onClick={handleFlip}>FLIP ME!</Button>
+        <Button
+          variant="outlined"
+          onClick={handleFlip}
+          data-testid="flip-btn"
+        >FLIP ME!</Button>
         <Counter total={totalCount} heads={headCount} tails={tailCount}/>
       </Container>
     </div>
